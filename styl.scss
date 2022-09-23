@@ -1,3 +1,8 @@
+$color-1 : #cdb4db ; // Mobile
+$color-2 : #fff1ef ; // Tablet
+$color-3 : #52b788 ; // Laptop
+$color-4 : #bee1e6 ; // Desktop
+
 * {
   margin: 0px;
   padding: 0px;
@@ -7,4 +12,26 @@
     font-family: sans-serif;
     font-size: 3rem;
   }
+}
+
+.container {
+  height: 100vh;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  display: grid;
+  place-content: center;
+ 
+}
+
+.text {
+
+}
+
+#size {
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%);
 }
