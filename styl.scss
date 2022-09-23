@@ -16,13 +16,12 @@ $color-4 : #bee1e6 ; // Desktop
 
 .container {
   height: 100vh;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-
-  display: grid;
-  place-content: center;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // display: grid;
+  // place-content: center;
+  background-color: $color-2;
 }
 
 .text {
@@ -34,4 +33,11 @@ $color-4 : #bee1e6 ; // Desktop
   top:60%;
   left: 50%;
   transform: translate(-50%);
+  color: maroon;
+}
+
+@media (min-width: 500px) {
+  .container {
+    background-color: $color-4;
+  }
 }
