@@ -31,3 +31,17 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .container {
+
+  }
+
+    [class^="row-"] {
+    flex-direction: column;
+  }
+  
+  [class^="box-"] {
+    width: 100%;
+  }
+}

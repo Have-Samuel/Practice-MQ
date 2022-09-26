@@ -28,4 +28,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  [class^=row-] {
+    flex-direction: column;
+  }
+  [class^=box-] {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
