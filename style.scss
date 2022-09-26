@@ -131,3 +131,44 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+    &__logo {
+      font-size: 4rem;
+    }
+
+    &__menu {
+      display: none;
+    }
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__image {
+      width: 600px;
+      height: 600px;
+      border-radius: 100%;
+      background-size: 100%;
+      background-position: center;
+    }
+
+    &__text {
+
+    }
+  }
+
+  .footer {
+    justify-content: center;
+    margin: 0;
+    [class^="footer__"] {
+      img {
+        width: 85px;
+        height: 85px;
+      }
+    }
+  }
+}

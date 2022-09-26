@@ -74,4 +74,36 @@
 }
 .footer [class^=footer__] img {
   width: 5vw;
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+  .header__logo {
+    font-size: 4rem;
+  }
+  .header__menu {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__image {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+  }
+  .footer {
+    justify-content: center;
+    margin: 0;
+  }
+  .footer [class^=footer__] img {
+    width: 85px;
+    height: 85px;
+  }
 }/*# sourceMappingURL=style.css.map */
