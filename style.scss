@@ -8,7 +8,7 @@
 // $laptop : 995px;
 // $desktop : 1200px;
 * {
-  margin: 0px;
+  margin: 0 0.8rem;
   padding: 0px;
   box-sizing: border-box;
 
@@ -61,3 +61,54 @@
 //     background-color: $color-1;
 //   }
 // }
+
+.container {
+  height: 100vh;
+  
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-size: 4vw;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 2vw;
+  }
+}
+
+.main {
+  height: 80%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+
+  &__image {
+    background-image: url('./images/Portrait.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%
+  }
+
+  &__text {
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.footer {
+  height: 10%;
+}
