@@ -3,6 +3,11 @@ $color-2 : #fff1ef ; // Tablet
 $color-3 : #52b788 ; // Laptop
 $color-4 : #bee1e6 ; // Desktop
 
+$mobile : 576px;
+$tablet : 768px;
+$laptop : 992px;
+$desktop : 1200px;
+
 * {
   margin: 0px;
   padding: 0px;
