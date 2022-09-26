@@ -26,7 +26,6 @@ $desktop : 1200px;
   align-items: center;
   // display: grid;
   // place-content: center;
-  background-color: $color-2;
 }
 
 .text {
@@ -41,8 +40,26 @@ $desktop : 1200px;
   color: maroon;
 }
 
-@media (min-width: 500px) {
+@media (max-width: $deskop) {
   .container {
     background-color: $color-4;
+  }
+}
+
+@media (max-width: $laptop) {
+  .container {
+    background-color: $color-3;
+  }
+}
+
+@media (max-width: $tablet) {
+  .container {
+    background-color: $color-2;
+  }
+}
+
+@media (max-width: $mobile) {
+  .container {
+    background-color: $color-1;
   }
 }
