@@ -11,6 +11,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 [class^=row-] {
@@ -19,4 +20,10 @@
 
 [class^=box-] {
   background-color: #c4c4c4;
+  border: 2px solid black;
+  width: 33.3333333333%;
+  height: 33.3333333333vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
