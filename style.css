@@ -6,26 +6,4 @@
 * body {
   font-family: sans-serif;
   font-size: 3rem;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff1ef;
-}
-
-#size {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%);
-  color: maroon;
-}
-
-@media (min-width: 500px) {
-  .container {
-    background-color: #bee1e6;
-  }
-}/*# sourceMappingURL=styl.css.map */
+}/*# sourceMappingURL=style.css.map */
