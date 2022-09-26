@@ -1,3 +1,12 @@
+$color-1 : #cdb4db ; // Mobile
+$color-2 : #fff1e6 ; // Tablet
+$color-3 : #52b788 ; // Laptop
+$color-4 : #bee1e6 ; // Desktop
+
+$mobile : 576px;
+$tablet : 768px;
+$laptop : 995px;
+$desktop : 1200px;
 * {
   margin: 0px;
   padding: 0px;
@@ -6,5 +15,49 @@
   body {
     font-family: sans-serif;
     font-size: 3rem;
+  }
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.text {
+  
+}
+
+#size {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  color: maroon;
+}
+
+@media (max-width: $desktop) {
+  .container {
+    background-color: $color-4;
+  }
+}
+
+@media (max-width: $laptop) {
+  .container {
+    background-color: $color-3;
+  }
+}
+
+@media (max-width: $tablet) {
+  .container {
+    background-color: $color-2;
+  }
+}
+
+@media (max-width: $mobile) {
+  .container {
+    background-color: $color-1;
   }
 }

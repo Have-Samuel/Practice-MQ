@@ -6,4 +6,41 @@
 * body {
   font-family: sans-serif;
   font-size: 3rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#size {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  color: maroon;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    background-color: #bee1e6;
+  }
+}
+@media (max-width: 995px) {
+  .container {
+    background-color: #52b788;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    background-color: #fff1e6;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    background-color: #cdb4db;
+  }
 }/*# sourceMappingURL=style.css.map */
